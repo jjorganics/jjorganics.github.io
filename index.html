@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JJOrganics Amazon Ad</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { min-height: 100vh; display: flex; justify-content: center; align-items: center; background: #f0e8e0; font-family: 'Cormorant Garamond', serif; }
+  .card { width: 520px; min-height: 700px; background: linear-gradient(160deg, #fdf6f0 0%, #fef0f5 40%, #f5f0fa 100%); border-radius: 4px; position: relative; overflow: hidden; box-shadow: 0 20px 80px rgba(180, 120, 140, 0.3), 0 4px 20px rgba(0,0,0,0.1); display: flex; flex-direction: column; align-items: center; padding: 50px 40px 40px; }
+  .lace-top { position: absolute; top: 0; left: 0; right: 0; height: 18px; background: repeating-linear-gradient(90deg, rgba(220,180,200,0.6) 0px, transparent 4px, transparent 8px, rgba(220,180,200,0.6) 8px, transparent 12px); border-bottom: 1.5px solid rgba(200,160,180,0.4); }
+  .lace-bottom { position: absolute; bottom: 0; left: 0; right: 0; height: 18px; background: repeating-linear-gradient(90deg, rgba(220,180,200,0.6) 0px, transparent 4px, transparent 8px, rgba(220,180,200,0.6) 8px, transparent 12px); border-top: 1.5px solid rgba(200,160,180,0.4); }
+  .floral { position: absolute; font-size: 64px; opacity: 0.22; line-height: 1; pointer-events: none; }
+  .floral-tl { top: 12px; left: 8px; transform: rotate(-15deg); }
+  .floral-tr { top: 12px; right: 8px; transform: rotate(20deg) scaleX(-1); }
+  .floral-bl { bottom: 22px; left: 8px; transform: rotate(10deg); }
+  .floral-br { bottom: 22px; right: 8px; transform: rotate(-10deg) scaleX(-1); }
+  .bow { position: absolute; top: 28px; right: 30px; font-size: 52px; transform: rotate(15deg); animation: gentle-sway 4s ease-in-out infinite; }
+  @keyframes gentle-sway { 0%, 100% { transform: rotate(15deg); } 50% { transform: rotate(20deg); } }
+  .bow-bottom { position: absolute; bottom: 22px; left: 50%; transform: translateX(-50%) rotate(-5deg); font-size: 36px; opacity: 0.75; }
+  .teacup { position: absolute; left: -10px; bottom: 90px; font-size: 58px; transform: rotate(-8deg); opacity: 0.8; }
+  .roses { position: absolute; right: -8px; top: 80px; font-size: 62px; transform: rotate(12deg); opacity: 0.7; }
+  .oval-frame { position: relative; z-index: 2; background: rgba(255,248,245,0.92); border-radius: 50%; width: 340px; height: 340px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 2.5px solid rgba(200,155,170,0.5); box-shadow: 0 0 0 8px rgba(255,248,245,0.5), 0 0 0 10px rgba(200,155,170,0.2); margin-bottom: 28px; animation: fade-in 1s ease forwards; }
+  @keyframes fade-in { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+  .oval-frame::before, .oval-frame::after { content: '✦'; position: absolute; color: rgba(190,140,160,0.5); font-size: 14px; }
+  .oval-frame::before { top: 10px; left: 50%; transform: translateX(-50%); }
+  .oval-frame::after { bottom: 10px; left: 50%; transform: translateX(-50%); }
+  .count { font-family: 'Playfair Display', serif; font-size: 72px; font-weight: 700; color: #c0748a; line-height: 1; letter-spacing: -2px; }
+  .count-sub { font-family: 'Cormorant Garamond', serif; font-size: 14px; letter-spacing: 5px; color: #b08898; text-transform: uppercase; margin-top: -6px; margin-bottom: 10px; }
+  .brand-name { font-family: 'Playfair Display', serif; font-size: 32px; font-weight: 700; color: #5a3545; letter-spacing: 3px; text-transform: uppercase; }
+  .tagline-script { font-family: 'Dancing Script', cursive; font-size: 26px; color: #b06080; margin-top: 4px; }
+  .tagline-sub { font-family: 'Cormorant Garamond', serif; font-size: 15px; font-style: italic; color: #907080; margin-top: 6px; }
+  .heart-ornament { color: #d4899a; font-size: 22px; margin-bottom: 4px; animation: pulse 2.5s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.12); } }
+  .products-section { z-index: 2; width: 100%; text-align: center; margin-bottom: 22px; }
+  .products-title { font-family: 'Cormorant Garamond', serif; font-size: 13px; letter-spacing: 6px; text-transform: uppercase; color: #b08898; margin-bottom: 14px; }
+  .product-tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .tag { background: rgba(200,140,160,0.12); border​​​​​​​​​​​​​​​​
